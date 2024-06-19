@@ -1,0 +1,119 @@
+/* 
+Ejercicio 2.b
+body {
+  background-color: #eaf2e3;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+Ejercicio 3.a
+#ejercicio1_2 {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+Ejercicio 4.3
+.ejercicio4-3{
+  text-indent: 20px;
+  font-size: large;
+}
+*/
+
+/*Ejercicio 5.3*/
+header {
+  background-color: #3f463c;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+section {
+  padding: 20px; /* espaciado para la sección de 20 pixeles */
+  background-color: rgb(217, 228, 228);
+}
+footer {
+  background-color: #596653; /* Color de fondo del footer */
+  color: #fff;
+  padding: 20px 0;
+}
+.footer-content {
+  max-width: 100%; /* Ancho máximo del contenido del footer */
+  margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+  text-align: center;
+}
+
+/*Ejercicio 6.a*/
+/* Estilos para el nav y enlaces de ul y li */
+nav {
+  background-color: #596653;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  background-color: #717a74;
+}
+
+/*Ejercicio 6.c*/
+a {
+  color: #000;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  color: #0c0403;
+  cursor: pointer;
+}
+
+/*Ejercicio 6.d*/
+img {
+  display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+  margin: 0 auto; /* Centrar las imágenes horizontalmente */
+  max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+  border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */
+  /*Ejercicio 6.d*/
+  border: 3px solid #7647dc; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+}
+
+/*Para completar otros elementos para mejor estética*/
+#banner {
+  border: none;
+}
+h1 {
+  font-family: "Comic Sans MS", "Comic Sans";
+}
+#ejercicio1_2 {
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/*Para completar el footer que no posee consigna*/
+
+#facebook,
+#instagram,
+#gitHub {
+  width: 50px;
+  height: auto;
+  border: none;
+  display: inline-block;
+  margin-left: 10px;
+}
