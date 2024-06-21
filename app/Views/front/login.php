@@ -14,6 +14,7 @@
         &nbsp
         <div class="col-12">
             <button type="submit" class="btn btn-secondary">Ingresar</button>
+            <p>¿Todavía no tienes una cuenta? <a href="registro" id="registro_login">Registrate</a></p>
         </div>
     </div>
 </div>

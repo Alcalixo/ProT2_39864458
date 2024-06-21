@@ -1,4 +1,6 @@
 <div class="container">
+    <br>
+    <p class="parrafo_principal" id="staff"> Conoce a los que hacen posible que esto funcione:</p>
     <div class="row justify-content-center">
         <div class="card card-zoom text-bg-success" style="width: 18rem;">
             <img src="assets/img/gabe-newell.jpg" class="card-img-top" alt="Gabe Newell">

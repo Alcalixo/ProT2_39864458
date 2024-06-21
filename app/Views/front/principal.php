@@ -1,7 +1,7 @@
 <div class="container">
   <div class="row">
     <div class="col">
-      <p id="parrafo1">
+      <p class="parrafo_principal">
         Somos un equipo de desarrolladores independientes que se dedica a la
         elaboración de videojuegos, y prestar apoyo a compañias y otros
         desarrolladores, así como prestar servicio se soporte para corrección de
@@ -13,6 +13,7 @@
         intentar darle a los gamers (como nosotros) la mejor experiencia de juego
         posible.
       </p>
+      <p>Algunos ejemplos de nuestro trabajo:</p>
     </div>
   </div>
   <div class="row-10 text-center d-flex justify-content-center">

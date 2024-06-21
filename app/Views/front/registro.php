@@ -2,6 +2,7 @@
     <div class="col d-flex justify-content-center" id="registro">
         <!--Formulario de Registro-->
         <form class="row g-3">
+            <p class="parrafo_principal">Completa tus datos</p>
             <div class="input-group">
                 <span class="input-group-text">Nombres y Apellidos</span>
                 <input type="text" aria-label="First name" class="form-control">

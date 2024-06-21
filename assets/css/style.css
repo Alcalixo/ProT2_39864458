@@ -45,10 +45,18 @@ a:hover {
   cursor: pointer;
 }
 
-#parrafo1{
+.parrafo_principal{
   text-align: center;
   font-style: italic;
   font-weight: bold;
+}
+
+#staff{
+  font-size: x-large;
+}
+
+#registro_login{
+  text-decoration-line: none;
 }
 
 #gridCheck{
