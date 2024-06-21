@@ -1,53 +1,18 @@
-/* 
-Ejercicio 2.b
-body {
-  background-color: #eaf2e3;
-  color: #333;
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-Ejercicio 3.a
-#ejercicio1_2 {
-  text-align: center;
-  font-style: italic;
-  font-weight: bold;
-}
-
-Ejercicio 4.3
-.ejercicio4-3{
-  text-indent: 20px;
-  font-size: large;
-}
-*/
-
-/*Ejercicio 5.3*/
 header {
-  background-color: #3f463c;
+  background-color: #596653;
   color: #fff;
-  text-align: center;
-  padding: 20px;
-}
-
-/*section {
-  padding: 20px; espaciado para la sección de 20 pixeles 
-  background-color: rgb(217, 228, 228); 
-}
-  */
-footer {
-  background-color: #596653; /* Color de fondo del footer */
-  color: #fff;
-  padding: 20px 0;
-}
-.footer-content {
-  max-width: 100%; /* Ancho máximo del contenido del footer */
-  margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
   text-align: center;
 }
 
-/*Ejercicio 6.a*/
-/* Estilos para el nav y enlaces de ul y li */
+body {
+  background-color: rgb(87, 148, 87);
+}
+
+h1{
+  font-family: "Comic Sans MS", "Comic Sans";
+  font-weight: bold;
+  color: #0c0403;
+}
 nav {
   background-color: #596653;
   padding: 10px;
@@ -58,55 +23,67 @@ nav ul {
   padding: 0;
   text-align: center;
 }
+
 nav ul li {
   display: inline-block;
   margin-right: 20px;
 }
+
 nav ul li a {
   color: #fff;
   text-decoration: none;
   padding: 8px 16px;
   border-radius: 5px;
 }
+
 nav ul li a:hover {
   background-color: #717a74;
 }
 
-/*Ejercicio 6.c*/
-a {
-  color: #000;
-}
-a:link {
-  text-decoration: none;
-}
 a:hover {
   color: #0c0403;
   cursor: pointer;
 }
 
-
-.carousel-inner{
-  height: 550px; /* Ajusta la altura según tus necesidades */
-  padding-left: 10px;
-  padding-right: 10px;
-  align-items: center;
-}
-
-
-/*Para completar otros elementos para mejor estética*/
-#banner {
-  border: none;
-}
-h1 {
-  font-family: "Comic Sans MS", "Comic Sans";
-}
-#ejercicio1_2 {
+#parrafo1{
   text-align: center;
   font-style: italic;
   font-weight: bold;
 }
 
-/*Para completar el footer que no posee consigna*/
+#gridCheck{
+  background-color: #596653;
+}
+
+#login{
+  padding: 50px;
+  margin: 50px;
+}
+
+#registro{
+  padding: 50px;
+  margin: 50px;
+}
+
+.card-zoom:hover {
+  transform: scale(1.1); /* Aumenta la escala al 110% */
+  transition: transform 0.3s ease; /* Animación suave */
+}
+
+label{
+  padding-top: 10px;
+}
+
+footer {
+  background-color: #596653; /* Color de fondo del footer */
+  color: #fff;
+  padding: 20px 0;
+}
+.footer-content {
+  max-width: 100%; /* Ancho máximo del contenido del footer */
+  margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+  text-align: center;
+}
 
 #facebook,
 #instagram,
