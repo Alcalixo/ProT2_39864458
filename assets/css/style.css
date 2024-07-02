@@ -4,14 +4,8 @@ html {
 }
 body {
   margin: 0;
-  margin-bottom: 40px;
-}
-footer {
-  background-color: #596653;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  color: #fff;
+  margin-bottom: 100px;
+  background-color: rgb(87, 148, 87);
 }
 
 header {
@@ -20,9 +14,6 @@ header {
   text-align: center;
 }
 
-body {
-  background-color: rgb(87, 148, 87);
-}
 
 h1{
   font-family: "Comic Sans MS", "Comic Sans";
@@ -67,6 +58,11 @@ a:hover {
   font-weight: bold;
 }
 
+#carouselExampleIndicators{
+  margin: 10px;
+  padding: 10px;
+}
+
 #staff{
   font-size: x-large;
 }
@@ -103,13 +99,16 @@ label{
   padding-top: 10px;
 }
 
-/*footer {
-  background-color: #596653; / Color de fondo del footer /
-  color: #fff;
-  padding: 20px 0;
-  position: relative;
+footer {
+  background-color: #596653;
+  position: absolute;
   bottom: 0;
-}*/
+  width: 100%;
+  color: #fff;
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
 .footer-content {
   max-width: 100%; /* Ancho máximo del contenido del footer */
   margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
