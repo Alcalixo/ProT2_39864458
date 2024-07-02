@@ -8,7 +8,7 @@
                 <input type="text" aria-label="First name" class="form-control">
                 <input type="text" aria-label="Last name" class="form-control">
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-12">
                 <label for="inputEmail4" class="form-label">Email</label>
                 <input type="email" class="form-control" id="inputEmail4" placeholder="email@email.com">
             </div>
@@ -18,6 +18,10 @@
                 <div id="passwordHelpBlock" class="form-text">
                     Tu contraseña debe tener entre 8-20 caracteres de longitud, puede contener letras y numeros (abc123), pero no puede contener espacios vacios ni caractereres especiales (,.-)
                 </div>
+            </div>
+            <div class="col-lg-6">
+                <label for="inputPassword4" class="form-label">Repite tu Contraseña</label>
+                <input type="password" class="form-control" id="inputPassword4">
             </div>
             <div class="col-lg-6">
                 <label for="inputCity" class="form-label">Ciudad</label>
