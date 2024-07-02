@@ -1,3 +1,19 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  margin: 0;
+  margin-bottom: 40px;
+}
+footer {
+  background-color: #596653;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+}
+
 header {
   background-color: #596653;
   color: #fff;
@@ -73,6 +89,11 @@ a:hover {
   margin: 50px;
 }
 
+.card{
+  padding: 10px;
+  margin: 10px;
+}
+
 .card-zoom:hover {
   transform: scale(1.1); /* Aumenta la escala al 110% */
   transition: transform 0.3s ease; /* Animación suave */
@@ -82,11 +103,13 @@ label{
   padding-top: 10px;
 }
 
-footer {
-  background-color: #596653; /* Color de fondo del footer */
+/*footer {
+  background-color: #596653; / Color de fondo del footer /
   color: #fff;
   padding: 20px 0;
-}
+  position: relative;
+  bottom: 0;
+}*/
 .footer-content {
   max-width: 100%; /* Ancho máximo del contenido del footer */
   margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
