@@ -45,7 +45,7 @@
                             <a class="nav-link disabled nav-light" aria-disabled="true">Proximamente</a>
                         </li>
                     </ul>
-    <!--Busquedor-->
+    <!--Buscador-->
                     <form class="d-flex">
                         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
                         <button class="btn btn-secondary" type="submit">Buscar</button>
